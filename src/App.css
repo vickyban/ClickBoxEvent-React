@@ -1,0 +1,28 @@
+.boxes{
+  width:200px;
+  height:200px;
+  background-color:green;
+  margin:20px;
+  float:left;
+  position: relative;
+}
+div > p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.boom{
+  background-color:red;
+  color: white;
+}
+.safe{
+  background-color:lightblue;
+}
+.timeout{
+  background-color:black;
+}
